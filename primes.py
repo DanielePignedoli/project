@@ -32,5 +32,9 @@ def num_of_prime(n,metodo):
 				prime_list.append(x)
 	print(prime_list)
 
+def test_errore():
+	assert is_prime_1(6) == True
+
+
 num_of_prime(int(sys.argv[1]),sys.argv[2])
 print(time.time()-seconds)
